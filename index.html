@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <title>pod-request-access-landing-page</title>
+</head>
+<body>
+    <div class="grid-container">
+
+        <img class="grid-1" src="assets/desktop/logo.svg" alt="logo"> <!--position absolute-->
+
+        <div class="container grid-2">
+            <div class="margin-container">
+                <h1>Publish your podcasts 
+                    <span>everywhere.</span> 
+                </h1>
+        
+                <p name="description">Upload your audio to Pod with a single click. We’ll then 
+                    distribute your podcast to Spotify, Apple Podcasts, 
+                    Google Podcasts, Pocket Casts and more!
+                </p>
+        
+                <div class="email-access">
+                    <input type="email" placeholder="Email address" id="email">
+                    <button id="button">Request Access</button>
+                    <p class="while" id="msj">---</p>
+                    <p class="success" id="success">Email verification success!</p>
+                    <p class="error" id="error">Oops! Please check your email</p>
+                </div>
+        
+                <div class="social-media">
+                    <img src="assets/desktop/spotify.svg" alt="spotify">
+                    <img src="assets/desktop/apple-podcast.svg" alt="apple">
+                    <img src="assets/desktop/google-podcasts.svg" alt="google">
+                    <img src="assets/desktop/pocket-casts.svg" alt="pocket">
+                </div>
+            </div>
+        </div> <!--Cierra Container-->
+    
+        <div  class="img-background grid-3">
+            <div class="mobile-filter"></div>
+        </div> <!--Image-->
+        
+       
+        <img class="grid-4" src="assets/desktop/bg-pattern-dots.svg" alt="dots"> <!--position absolute-->
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
